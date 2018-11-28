@@ -1,0 +1,13 @@
+---
+title: "report"
+author: "Thomas Smith"
+date: '2018-11-27'
+output: html_document:
+	keep_md: yes
+---
+
+Robert De Niro is a great actor. But how have his movies rated over time? To investigate this question, we will look at his Rotten Tomato scores over the years. 
+
+```{r load deniro_dat}
+deniro_data <- read.delim("deniro.tsv")
+```
