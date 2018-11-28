@@ -5,6 +5,7 @@ clean:
 	
 deniro.png: deniro.tsv
 	Rscript -e 'library(ggplot2); qplot(Year, Score, data=read.delim("$<")); ggsave("$@")'
+		rm Rplots.pdf
 	
 deniro.tsv: deniro.rt.r deniro.csv
 	Rscript $<
