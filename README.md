@@ -25,3 +25,5 @@ Item | Description
 [hw09-tsmith93.RProj](https://github.com/STAT545-UBC-students/hw09-tsmith93/blob/master/hw09-tsmith93.Rproj) | R.Proj file for repository
 [report.Rmd](https://github.com/STAT545-UBC-students/hw09-tsmith93/blob/master/report.Rmd) | Summary report .rmd file
 [report.html](https://github.com/STAT545-UBC-students/hw09-tsmith93/blob/master/report.html) | Summary report .html file
+
+Although, initally I had started working with Jenny Bryan's repository found [here](https://github.com/STAT545-UBC/make-activity), I decided to make my own pipeline from scratch!
