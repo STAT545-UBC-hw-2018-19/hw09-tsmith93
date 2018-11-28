@@ -2,7 +2,8 @@
 title: "Rober De Niro film ratings"
 author: "Thomas Smith"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-output: html_document
+output: html_document:
+  keep_md: true
 ---
 
 ```{r load deniro_dat}
