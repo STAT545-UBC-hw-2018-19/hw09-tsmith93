@@ -1,0 +1,339 @@
+Year	Score	Title
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93[?1034hThomass-MacBook-Pro:hw09-tsmith93 thomassmith$ YearScoreTitle
+bash: YearScoreTitle: command not found
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ graphviz[K[K[K[K[K[K[K[K/usr/bin/ruby -e "$(curl -fsSL https://raw.githubu sercontent.com/Homebrew/install/master/install)"
+[1;34m==>[1;39m This script will install:[0m
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+[1;34m==>[1;39m The following new directories will be created:[0m
+/usr/local/sbin
+/usr/local/opt
+/usr/local/var/homebrew/linked
+/usr/local/Cellar
+/usr/local/Caskroom
+/usr/local/Frameworks
+
+Press RETURN to continue or any other key to abort
+[1;34m==>[1;39m /usr/bin/sudo /bin/mkdir -p /usr/local/sbin /usr/local/opt /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks[0m
+Password:
+[1;34m==>[1;39m /usr/bin/sudo /bin/chmod g+rwx /usr/local/sbin /usr/local/opt /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks[0m
+[1;34m==>[1;39m /usr/bin/sudo /bin/chmod 755 /usr/local/share/zsh /usr/local/share/zsh/site-functions[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/sbin/chown thomassmith /usr/local/sbin /usr/local/opt /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/bin/chgrp admin /usr/local/sbin /usr/local/opt /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks[0m
+[1;34m==>[1;39m /usr/bin/sudo /bin/mkdir -p /Users/thomassmith/Library/Caches/Homebrew[0m
+[1;34m==>[1;39m /usr/bin/sudo /bin/chmod g+rwx /Users/thomassmith/Library/Caches/Homebrew[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/sbin/chown thomassmith /Users/thomassmith/Library/Caches/Homebrew[0m
+[1;34m==>[1;39m /usr/bin/sudo /bin/mkdir -p /Library/Caches/Homebrew[0m
+[1;34m==>[1;39m /usr/bin/sudo /bin/chmod g+rwx /Library/Caches/Homebrew[0m
+[1;34m==>[1;39m /usr/bin/sudo /usr/sbin/chown thomassmith /Library/Caches/Homebrew[0m
+[1;34m==>[1;39m Downloading and installing Homebrew...[0m
+HEAD is now at aed895cdc Merge pull request #5353 from Homebrew/dependabot/bundler/docs/faraday-0.15.4
+[34m==>[0m [1mMigrating /Library/Caches/Homebrew to /Users/thomassmith/Library/Caches/Homebrew...[0m
+[34m==>[0m [1mDeleting /Library/Caches/Homebrew...[0m
+Already up-to-date.
+[1;34m==>[1;39m Installation successful![0m
+
+[1;34m==>[1;39m Homebrew has enabled anonymous aggregate formulae and cask analytics.[0m
+[1;39mRead the analytics documentation (and how to opt-out) here:
+  [4;39mhttps://docs.brew.sh/Analytics[0m
+
+[1;34m==>[1;39m Homebrew is run entirely by unpaid volunteers. Please consider donating:[0m
+  [4;39mhttps://github.com/Homebrew/brew#donations[0m
+[1;34m==>[1;39m Next steps:[0m
+- Run `brew help` to get started
+- Further documentation: 
+    [4;39mhttps://docs.brew.sh[0m
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ brew install python3
+[32m==>[0m [1mInstalling dependencies for python: [32mgdbm[39m, [32mopenssl[39m, [32mreadline[39m, [32msqlite[39m and [32mxz[39m[0m
+[32m==>[0m [1mInstalling python dependency: [32mgdbm[39m[0m
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/gdbm-1.18.1.high_sierra.bottle.tar.gz[0m
+                                                                           0.4%############                                                              17.5%#################################################################         90.7%######################################################################## 100.0%
+[34m==>[0m [1mPouring gdbm-1.18.1.high_sierra.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/gdbm/1.18.1: 20 files, 591KB
+[32m==>[0m [1mInstalling python dependency: [32mopenssl[39m[0m
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/openssl-1.0.2q.high_sierra.bottle.tar.gz[0m
+###################################                                       49.6%######################################################################## 100.0%
+[34m==>[0m [1mPouring openssl-1.0.2q.high_sierra.bottle.tar.gz[0m
+[34m==>[0m [1mCaveats[0m
+A CA file has been bootstrapped using certificates from the SystemRoots
+keychain. To add additional certificates (e.g. the certificates added in
+the System keychain), place .pem files in
+  /usr/local/etc/openssl/certs
+
+and run
+  /usr/local/opt/openssl/bin/c_rehash
+
+openssl is keg-only, which means it was not symlinked into /usr/local,
+because Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries.
+
+If you need to have openssl first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find openssl you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl/include"
+
+[34m==>[0m [1mSummary[0m
+🍺  /usr/local/Cellar/openssl/1.0.2q: 1,794 files, 12.1MB
+[32m==>[0m [1mInstalling python dependency: [32mreadline[39m[0m
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/readline-7.0.5.high_sierra.bottle.tar.gz[0m
+######################################################################## 100.0%
+[34m==>[0m [1mPouring readline-7.0.5.high_sierra.bottle.tar.gz[0m
+[34m==>[0m [1mCaveats[0m
+readline is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides the BSD libedit library, which shadows libreadline.
+In order to prevent conflicts when programs look for libreadline we are
+defaulting this GNU Readline installation to keg-only.
+
+For compilers to find readline you may need to set:
+  export LDFLAGS="-L/usr/local/opt/readline/lib"
+  export CPPFLAGS="-I/usr/local/opt/readline/include"
+
+[34m==>[0m [1mSummary[0m
+🍺  /usr/local/Cellar/readline/7.0.5: 46 files, 1.5MB
+[32m==>[0m [1mInstalling python dependency: [32msqlite[39m[0m
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/sqlite-3.25.3.high_sierra.bottle.tar.gz[0m
+#################################################################         90.7%######################################################################## 100.0%
+[34m==>[0m [1mPouring sqlite-3.25.3.high_sierra.bottle.tar.gz[0m
+[34m==>[0m [1mCaveats[0m
+sqlite is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides an older sqlite3.
+
+If you need to have sqlite first in your PATH run:
+  echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find sqlite you may need to set:
+  export LDFLAGS="-L/usr/local/opt/sqlite/lib"
+  export CPPFLAGS="-I/usr/local/opt/sqlite/include"
+
+[34m==>[0m [1mSummary[0m
+🍺  /usr/local/Cellar/sqlite/3.25.3: 11 files, 3.7MB
+[32m==>[0m [1mInstalling python dependency: [32mxz[39m[0m
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/xz-5.2.4.high_sierra.bottle.tar.gz[0m
+######################################################################## 100.0%
+[34m==>[0m [1mPouring xz-5.2.4.high_sierra.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/xz/5.2.4: 92 files, 1MB
+[32m==>[0m [1mInstalling [32mpython[39m[0m
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/python-3.7.1.high_sierra.bottle.tar.gz[0m
+#########                                                                 13.3%##################                                                        25.6%###########################                                               37.7%##################################                                        48.2%##########################################                                59.7%####################################################                      72.4%############################################################              83.6%####################################################################      95.6%######################################################################## 100.0%
+[34m==>[0m [1mPouring python-3.7.1.high_sierra.bottle.tar.gz[0m
+[34m==>[0m [1m/usr/local/Cellar/python/3.7.1/bin/python3 -s setup.py --no-user-cfg install --force --verbos[0m
+[34m==>[0m [1m/usr/local/Cellar/python/3.7.1/bin/python3 -s setup.py --no-user-cfg install --force --verbos[0m
+[34m==>[0m [1m/usr/local/Cellar/python/3.7.1/bin/python3 -s setup.py --no-user-cfg install --force --verbos[0m
+[34m==>[0m [1mCaveats[0m
+Python has been installed as
+  /usr/local/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+  /usr/local/opt/python/libexec/bin
+
+If you need Homebrew's Python 2.7 run
+  brew install python@2
+
+You can install Python packages with
+  pip3 install <package>
+They will install into the site-package directory
+  /usr/local/lib/python3.7/site-packages
+
+See: https://docs.brew.sh/Homebrew-and-Python
+[34m==>[0m [1mSummary[0m
+🍺  /usr/local/Cellar/python/3.7.1: 3,820 files, 59.2MB
+[32m==>[0m [1mCaveats[0m
+[34m==>[0m [1mopenssl[0m
+A CA file has been bootstrapped using certificates from the SystemRoots
+keychain. To add additional certificates (e.g. the certificates added in
+the System keychain), place .pem files in
+  /usr/local/etc/openssl/certs
+
+and run
+  /usr/local/opt/openssl/bin/c_rehash
+
+openssl is keg-only, which means it was not symlinked into /usr/local,
+because Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries.
+
+If you need to have openssl first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find openssl you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl/include"
+
+[34m==>[0m [1mreadline[0m
+readline is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides the BSD libedit library, which shadows libreadline.
+In order to prevent conflicts when programs look for libreadline we are
+defaulting this GNU Readline installation to keg-only.
+
+For compilers to find readline you may need to set:
+  export LDFLAGS="-L/usr/local/opt/readline/lib"
+  export CPPFLAGS="-I/usr/local/opt/readline/include"
+
+[34m==>[0m [1msqlite[0m
+sqlite is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides an older sqlite3.
+
+If you need to have sqlite first in your PATH run:
+  echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find sqlite you may need to set:
+  export LDFLAGS="-L/usr/local/opt/sqlite/lib"
+  export CPPFLAGS="-I/usr/local/opt/sqlite/include"
+
+[34m==>[0m [1mpython[0m
+Python has been installed as
+  /usr/local/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+  /usr/local/opt/python/libexec/bin
+
+If you need Homebrew's Python 2.7 run
+  brew install python@2
+
+You can install Python packages with
+  pip3 install <package>
+They will install into the site-package directory
+  /usr/local/lib/python3.7/site-packages
+
+See: https://docs.brew.sh/Homebrew-and-Python
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ brew install graphviz
+[32m==>[0m [1mInstalling dependencies for graphviz: [32mlibpng[39m, [32mfreetype[39m, [32mfontconfig[39m, [32mjpeg[39m, [32mlibtiff[39m, [32mwebp[39m, [32mgd[39m and [32mlibtool[39m[0m
+[32m==>[0m [1mInstalling graphviz dependency: [32mlibpng[39m[0m
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/libpng-1.6.35.high_sierra.bottle.tar.gz[0m
+######################################################################## 100.0%
+[34m==>[0m [1mPouring libpng-1.6.35.high_sierra.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/libpng/1.6.35: 26 files, 1.2MB
+[32m==>[0m [1mInstalling graphviz dependency: [32mfreetype[39m[0m
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/freetype-2.9.1.high_sierra.bottle.tar.gz[0m
+#################################################################         90.5%######################################################################## 100.0%
+[34m==>[0m [1mPouring freetype-2.9.1.high_sierra.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/freetype/2.9.1: 60 files, 2.6MB
+[32m==>[0m [1mInstalling graphviz dependency: [32mfontconfig[39m[0m
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/fontconfig-2.13.1.high_sierra.bottle.tar.gz[0m
+######################################################################## 100.0%
+[34m==>[0m [1mPouring fontconfig-2.13.1.high_sierra.bottle.tar.gz[0m
+[34m==>[0m [1mRegenerating font cache, this may take a while[0m
+[34m==>[0m [1m/usr/local/Cellar/fontconfig/2.13.1/bin/fc-cache -frv[0m
+🍺  /usr/local/Cellar/fontconfig/2.13.1: 531 files, 3.3MB
+[32m==>[0m [1mInstalling graphviz dependency: [32mjpeg[39m[0m
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/jpeg-9c.high_sierra.bottle.tar.gz[0m
+######################################################################## 100.0%
+[34m==>[0m [1mPouring jpeg-9c.high_sierra.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/jpeg/9c: 21 files, 724.6KB
+[32m==>[0m [1mInstalling graphviz dependency: [32mlibtiff[39m[0m
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/libtiff-4.0.10.high_sierra.bottle.tar.gz[0m
+######################################################################## 100.0%
+[34m==>[0m [1mPouring libtiff-4.0.10.high_sierra.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/libtiff/4.0.10: 246 files, 3.5MB
+[32m==>[0m [1mInstalling graphviz dependency: [32mwebp[39m[0m
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/webp-1.0.1.sierra.bottle.tar.gz[0m
+######################################################################## 100.0%
+[34m==>[0m [1mPouring webp-1.0.1.sierra.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/webp/1.0.1: 39 files, 2MB
+[32m==>[0m [1mInstalling graphviz dependency: [32mgd[39m[0m
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/gd-2.2.5.high_sierra.bottle.tar.gz[0m
+######################################################################## 100.0%
+[34m==>[0m [1mPouring gd-2.2.5.high_sierra.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/gd/2.2.5: 35 files, 1.1MB
+[32m==>[0m [1mInstalling graphviz dependency: [32mlibtool[39m[0m
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/libtool-2.4.6_1.high_sierra.bottle.tar.gz[0m
+######################################################################## 100.0%
+[34m==>[0m [1mPouring libtool-2.4.6_1.high_sierra.bottle.tar.gz[0m
+[34m==>[0m [1mCaveats[0m
+In order to prevent conflicts with Apple's own libtool we have prepended a "g"
+so, you have instead: glibtool and glibtoolize.
+[34m==>[0m [1mSummary[0m
+🍺  /usr/local/Cellar/libtool/2.4.6_1: 71 files, 3.7MB
+[32m==>[0m [1mInstalling [32mgraphviz[39m[0m
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/graphviz-2.40.1.high_sierra.bottle.1.tar.gz[0m
+#################                                                         24.9%#####################################                                     52.3%##########################################################                80.9%######################################################################## 100.0%
+[34m==>[0m [1mPouring graphviz-2.40.1.high_sierra.bottle.1.tar.gz[0m
+🍺  /usr/local/Cellar/graphviz/2.40.1: 500 files, 11.2MB
+[32m==>[0m [1mCaveats[0m
+[34m==>[0m [1mlibtool[0m
+In order to prevent conflicts with Apple's own libtool we have prepended a "g"
+so, you have instead: glibtool and glibtoolize.
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ python makefile2dot <Makefile >out.dot
+(null): can't open file 'makefile2dot': [Errno 2] No such file or directory
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ python makefile2dot <Makefile |dot -Tpng > out.png [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kg
+(null): can't open file 'makefile2dot': [Errno 2] No such file or directory
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ -ndBr | java -jar dist/j4make.jar 2> /dev/null 
+bash: -ndBr: command not found
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ digraph G {
+bash: digraph: command not found
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ n3[label="all"];
+bash: n3[label=all]: command not found
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ n8[label="lib/org/slf4j/slf4j-api/1.7.13/slf4j-api -1.7.13.jar"];
+bash: n8[label=lib/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.jar]: No such file or directory
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ n6[label="lib/commons-codec/commons-codec/1.10/com mons-codec-1.10.jar"];
+bash: n6[label=lib/commons-codec/commons-codec/1.10/commons-codec-1.10.jar]: No such file or directory
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ n2[label="Makefile"];
+bash: n2[label=Makefile]: command not found
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ n4[label="j4make"];
+bash: n4[label=j4make]: command not found
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ n1[label="<ROOT>"];
+bash: n1[label=<ROOT>]: command not found
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ n7[label="lib/commons-cli/commons-cli/1.3.1/common s-cli-1.3.1.jar"];
+bash: n7[label=lib/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.jar]: No such file or directory
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ n5[label="/home/lindenb/src/j4make/src/main/java/c om/github/lindenb/j4make/J4Make.java"];
+bash: n5[label=/home/lindenb/src/j4make/src/main/java/com/github/lindenb/j4make/J4Make.java]: No such file or directory
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ n4 -> n3;
+bash: n4: command not found
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ n5 -> n4;
+bash: n5: command not found
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ n6 -> n4;
+bash: n6: command not found
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ n7 -> n4;
+bash: n7: command not found
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ n8 -> n4;
+bash: n8: command not found
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ n2 -> n1;
+bash: n2: command not found
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ n3 -> n1;
+bash: n3: command not found
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ }make all
+bash: }make: command not found
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ make all
+make: *** No rule to make target `makefile2dot.py', needed by `output.dot'.  Stop.
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ make all
+make: Nothing to be done for `all'.
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ make clean
+rm -f deniro.csv deniro.tsv deniro.png report.html
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ make all
+Rscript -e 'download.file("https://people.sc.fsu.edu/~jburkardt/data/csv/deniro.csv", destfile = "deniro.csv", quiet = TRUE)'
+Rscript deniro.rt.r
+Rscript -e 'library(ggplot2); library(tidyverse); data=read.delim("deniro.tsv") %>% ggplot(aes(Year, Score)) + geom_point() + geom_smooth(se = FALSE); ggsave("deniro.png")'
+── [1mAttaching packages[22m ───────────────────────────────────────────────────── tidyverse 1.2.1 ──
+[32m✔[39m [34mtibble [39m 1.4.2     [32m✔[39m [34mpurrr  [39m 0.2.5
+[32m✔[39m [34mtidyr  [39m 0.8.2     [32m✔[39m [34mdplyr  [39m 0.7.8
+[32m✔[39m [34mreadr  [39m 1.1.1     [32m✔[39m [34mstringr[39m 1.3.1
+[32m✔[39m [34mtibble [39m 1.4.2     [32m✔[39m [34mforcats[39m 0.3.0
+── [1mConflicts[22m ──────────────────────────────────────────────────────── tidyverse_conflicts() ──
+[31m✖[39m [34mdplyr[39m::[32mfilter()[39m masks [34mstats[39m::filter()
+[31m✖[39m [34mdplyr[39m::[32mlag()[39m    masks [34mstats[39m::lag()
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula 'y ~ x'
+Rscript -e 'rmarkdown::render("report.rmd")'
+
+
+processing file: report.rmd
+  |                                                                         |                                                                 |   0%  |                                                                         |......................                                           |  33%
+   inline R code fragments
+
+  |                                                                         |...........................................                      |  67%
+label: load deniro_dat
+  |                                                                         |.................................................................| 100%
+   inline R code fragments
+
+
+output file: report.knit.md
+
+/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS report.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output report.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Users/thomassmith/Library/R/3.5/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /var/folders/z2/r2glpjnd5s10vfbdyzghtdpr0000gn/T//RtmpCmANT5/rmarkdown-str54c45c77e44.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' 
+
+Output created: report.html
+]0;~/Documents/School/UBC/MSc/MSc courses/STAT 545A:547/Assignment/hw09-tsmith93/hw09-tsmith93Thomass-MacBook-Pro:hw09-tsmith93 thomassmith$ [KThomass-MacBook-Pro:hw09-tsmith93 thomassmith$ [KThomass-MacBook-Pro:hw09-tsmith93 thomassmith$ 
